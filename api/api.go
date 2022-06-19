@@ -2,14 +2,14 @@ package api
 
 import (
 	"fmt"
+	"github.com/gabemanfroi/go-boilerplate/application"
+	"github.com/gabemanfroi/go-boilerplate/infra/IoC"
+	"github.com/gabemanfroi/go-boilerplate/infra/core"
+	"github.com/gabemanfroi/go-boilerplate/infra/db"
+	"github.com/gabemanfroi/go-boilerplate/internal/utils"
 	"github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"
 	"log"
-	"showcaseme/application"
-	"showcaseme/infra/IoC"
-	"showcaseme/infra/core"
-	"showcaseme/infra/db"
-	"showcaseme/internal/utils"
 )
 
 func init() {

@@ -2,12 +2,12 @@ package db
 
 import (
 	"fmt"
+	"github.com/gabemanfroi/go-boilerplate/infra/core"
+	"github.com/gabemanfroi/go-boilerplate/internal/utils"
 	"github.com/golobby/container/v3"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"log"
-	"showcaseme/infra/core"
-	"showcaseme/internal/utils"
 )
 
 type PostgresSession struct{}

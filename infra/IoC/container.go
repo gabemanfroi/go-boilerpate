@@ -1,10 +1,11 @@
 package IoC
 
 import (
+	"github.com/gabemanfroi/go-boilerplate/infra/db"
+	"github.com/gabemanfroi/go-boilerplate/internal/utils"
 	"github.com/golobby/container/v3"
+
 	"gorm.io/gorm"
-	"showcaseme/infra/db"
-	"showcaseme/internal/utils"
 )
 
 func InitContainer() {
